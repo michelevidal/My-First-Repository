@@ -1,2 +1,2 @@
 # My First Repository
- A page with links related to programming and technology.
+ A page with webstes links related to programming and technology.
