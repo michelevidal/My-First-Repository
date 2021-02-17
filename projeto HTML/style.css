@@ -1,0 +1,12 @@
+.navegacao{
+    display: flex;  
+    justify-content: space-between;
+    padding: 35px;  
+}
+.lado-esquerdo{
+    display: flex;
+}
+.navegacao>.lado-esquerdo>.div {
+    
+    display: flex;
+}
