@@ -5,6 +5,7 @@
 }
 .lado-esquerdo{
     display: flex;
+    justify-content: center;
 }
 .navegacao>.lado-esquerdo>.div {
     
@@ -12,4 +13,5 @@
     justify-content: center;
     padding: 20px;
     margin: 15px;
+    color: red;
 }
