@@ -1,18 +1,44 @@
-.navegacao{
-    display: flex;  
+/* Master Styles */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-auto-columns: 1fr;
+}
+
+/* Navigation Styes */ 
+.nav-wrapper {
+    display: flex;
     justify-content: space-between;
-    padding: 35px;  
+    padding: 38px;
 }
-.lado-esquerdo{
+
+.left-side {
     display: flex;
-    justify-content: center;
-    color:  pink
 }
-.navegacao>.lado-esquerdo>.div {
-    
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 15px;
-    color:blue;
+
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
 }
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s; 
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0,5;
+
+}
+.nav-link-wrapper a:hover {
+    border-bottom: 1px solid black
+}
+
+/* Potfolio Styles */
