@@ -1,6 +1,7 @@
 /* Master Styles */
 body {
     margin: 0px;
+    background-color:  #B0C4DE;
 }
 
 .container {
@@ -23,6 +24,7 @@ body {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
+
 }
 
 .nav-link-wrapper {
@@ -32,7 +34,7 @@ body {
 }
 
 .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: #363636;
     text-decoration: none;
     transition: color 0,5;
 
