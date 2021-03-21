@@ -1,7 +1,7 @@
 /* Master Styles */
 body {
     margin: 0px;
-    background-color:  #B0C4DE;
+    background: linear-gradient(45deg, #3f023f, #7990a5)
 }
 
 .container {
@@ -26,21 +26,33 @@ body {
     text-transform: uppercase;
 
 }
-
+.nav-wrapper>.right-side{
+    color: #FFFAFA;
+}
 .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s; 
 }
-
+.nav-link-wrapper:hover{
+    transform: scale(1.3);
+}
 .nav-link-wrapper a {
-    color: #363636;
-    text-decoration: none;
+    color:#FFFAFA;
+        text-decoration: none;
     transition: color 0,5;
 
 }
 .nav-link-wrapper a:hover {
-    border-bottom: 1px solid black
+    border-bottom: 1px solid rgb(238, 240, 239)
 }
 
+.right-side:hover{
+    transform: scale(1.3);
+}
+
+.content-wrapper:hover{
+
+}
+}
 /* Potfolio Styles */
